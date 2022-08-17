@@ -1,2 +1,2 @@
-# legacydrivers
-Drivers that no longer have support groups
+# ASCOM Legacy Drivers
+These ASCOM drivers  no longer have support groups
