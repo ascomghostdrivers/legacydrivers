@@ -1,3 +1,0 @@
-Driver for the  clamshells. This driver was written by Michel Meunier. If you wish to donate for use of this driver, here is the link to the original page. 
-
-http://www.etoiles-a-bleau.fr/ascom1.html

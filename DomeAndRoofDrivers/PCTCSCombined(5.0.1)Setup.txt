@@ -1,1 +1,0 @@
-Driver for Dave Harvey's COMSOFT PC-TCS telescope control systems. This driver provides combined telescope, focuser, and dome interfaces each of which may be used by separate programs. Dave passed away a number of years ago. The company COMSOFT-Telescope at http://www.comsoft-telescope.com/ is not related to PC-TCS.
