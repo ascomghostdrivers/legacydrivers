@@ -1,0 +1,1 @@
+Installs a driver for domes which use dome controllers that speak the Astronomy Control Language (a serial-line packet protocol originally developed by Merlin Controls).
