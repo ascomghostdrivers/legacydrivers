@@ -1,0 +1,1 @@
+Driver (for telescope control systems that speak the Merlin Controls Astronomy Command Language. Please note that there is a specific driver for the COMSOFT PC-TCS control system. Version 6.0.1 corrects a COM port setup bug, and has sources for building under Platform 6.
