@@ -1,0 +1,1 @@
+Installs a driver for the discontinued [iOptron CEM60 and iEQ45 Pro](https://www.ioptron.com/category-s/212.htm) mounts. This driver was supplied by the manufacturer but is no longer provided supported.

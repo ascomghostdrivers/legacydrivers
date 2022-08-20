@@ -1,0 +1,1 @@
+Installs a driver for the Meade LX200GPS and LX200R telescope mounts. This driver provides both telescope and focuser interfaces each of which may be used by separate programs. Do not use this with the LX200 Classic or the Autostar I (#495/#497) controllers. It has been reported that this driver also works with the RCX400 except it doesn't allow access to its unique features.

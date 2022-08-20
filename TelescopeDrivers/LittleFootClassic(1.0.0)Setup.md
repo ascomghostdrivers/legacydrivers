@@ -1,0 +1,1 @@
+Driver for the LittleFoot Controller Project, specifically the LittleFoot Classic. For more info see the [LittleFoot Elegance Photo ASCOM Driver SourceForge page](https://sourceforge.net/projects/lfepascom/). This hasn't been updated since 2016.
