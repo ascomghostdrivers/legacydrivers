@@ -1,0 +1,4 @@
+The following information is from a post by Hugo Birch on the ASCOM Talk forum: https://ascomtalk.groups.io/g/Help/topic/118909137 
+
+I had used the 32 bit FTDI USB drivers provided by the Diffraction Limited Staff (http://ftdichip.com/Drivers/D2XX.htm)
+Alongside the MaxIMDLObsoleteDrivers I was able to get the camera working in MaxIM DL V6.
