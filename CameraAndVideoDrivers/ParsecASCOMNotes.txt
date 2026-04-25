@@ -2,3 +2,14 @@ The following information is from a post by Hugo Birch on the ASCOM Talk forum: 
 
 I had used the 32 bit FTDI USB drivers provided by the Diffraction Limited Staff (http://ftdichip.com/Drivers/D2XX.htm)
 Alongside the MaxIMDLObsoleteDrivers I was able to get the camera working in MaxIM DL V6.
+
+The following two files must be in the Maxim DL V5 folder, copy them from the Maxim DL v6 folder: DLUtilities.dllV5 and FTD2XX.dll
+ 
+That was enough to get the camera working in Nebulosity, I could then use the Nebulosity ASCOM Driver to select the device in NINA (I downloaded the Nebulosity ASCOM driver from here: Nebulosity Ascom Driver · Issue #3 · celstark/OpenNebulosity
+ 
+Then I wanted to connect the camera to NINA, but unfortunately, it was returning an Unable to connect error, reason: SensorType.
+ 
+To fix this, I used dnSpy to edit C:\Program Files (x86)\Common Files\ASCOM\Camera\ASCOM.Nebulosity.Camera.dll this file, specifically iCameraV2 > SensorType which is showing PropertyNotImplementedException("SensorType", false). Edit the IL for get_SensorType(), and replace the body with just ldc.i4.2 and ret, which makes the driver return ASCOM sensor type 2 (RGGB) instead of throwing.
+
+After clicking OK in dnSpy, use Save Module to write the patched DLL to disk, then replace the original DLL with the patched one after making a backup. Once that was done, NINA connected successfully through the Nebulosity ASCOM driver with no more SensorType error!
+ 
